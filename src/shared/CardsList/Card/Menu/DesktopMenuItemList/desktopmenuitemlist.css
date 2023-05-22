@@ -1,0 +1,26 @@
+.menuItemsList {
+    padding: 14px 20px;
+}
+
+.menuItem {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.menuItem:hover>span:nth-child(2),
+.menuItem:hover>span>svg>path {
+    color: var(--orange);
+    fill: var(--orange);
+}
+
+.menuItem>span:nth-child(2) {
+    margin-left: 7px;
+}
+
+.divider {
+    margin: 5px 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--greyEC);
+}
